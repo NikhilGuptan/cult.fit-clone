@@ -1,10 +1,11 @@
 
+
 *{
     margin: 0%;
     padding: 0%;
         font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
-
+/* navbar css */
 #navBlock {
         display: flex;
         height: 62px;
@@ -81,9 +82,6 @@
         height: 20%;
         margin-left: 5px;
     }
-    #profile:hover,#cart:hover,#arrow:hover,#location:hover,#logo:hover{
-        cursor: pointer;
-    }
     .posterDiv{
         margin: auto;
     }
@@ -131,101 +129,99 @@
         cursor: pointer;
     }
 
+    /* container div css */
+
+    #cointainer{
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+        
+    }
+
+    #cointainer>div>img{
+        width: 95%;
+    }
+
+    #details{
+        /* border: 1px solid black; */
+        padding: 10px;
+    }
+    #details>div>span{
+        margin: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #cprice{
+        text-decoration: line-through;
+    }
+    #details>div>button{
+        background-color: rgb(245,166,35);
+        color: white;
+        width: 70px;
+        height: 35px;
+        text-decoration: none;
+        border: none;
+        font-size: 16px;
+    }
+    #details>p{
+        margin-top: 10px;
+        color: rgb(142,138,138);
+        font-weight: lighter;
+    }
+    #details>button{
+        background-color: rgb(227,226,252);
+        border: none;
+        width: 130px;
+        height: 25px;
+        border-radius: 5px;
+        color: rgb(115,108,240);
+    }
+    #size{
+        margin-top: 10px;
+    }
+    #size>span{
+        font-size: 12px !important;
+        font-weight: 200 !important;
+
+    }
+    #sizeAll{
+        display: flex;
+    }
+    #sizeAll>div{
+        margin: 10px 20px;
+        font-weight: lighter;
+    }
+    #button{
+        width: 100%;
+        margin: auto;
+    }
+    #button>button{
+        width: 45% !important;
+        margin: auto;
+        background-color: rgb(248,65,66) !important;
+        border-radius: 20px !important;
+        height: 40px !important;
+    }
+    #button>button:hover{
+        cursor: pointer;
+    }
+    #pDetail{
+        margin-top: 60px;
+        color: rgb(89,89,89);
+    }
     
 
 
-#store_div{
-    display: grid;
-    grid-template-columns: repeat(5,20%);
-    width: 80%;
-    margin: auto;
-    row-gap: 50px;
-}
-#store_div img{
-    width: 95%;
 
-}
-#store_div p{
-    margin-top: 0%;
-    margin-bottom: 2px;
-}
-.title{
-    color: rgb(155,155,155);
-}
-.price{
-    font-weight: bold;
-}
-#store_div > div:hover{
-    cursor: pointer;
-}
-.cprice{
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: line-through;
-}
-.discound{
-    color: rgb(255,50,120);
-}
-.text{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.text >h1{
-    text-align: center;
-    color: rgb(110,110,110);
-    font-size: 70px;
-    margin-bottom: 0%;
-}
-.text > h2{
-    margin-left: 220px;
-    margin-top: 0%;
-    font-size: 25px;
-    color: rgb(178,178,178);
-}
 
-/* before footer css */
-.bottom{
-    width: 100%;
-    background-color: rgb(242,244,248);
-}
-.bottom >h1{
-    margin-left: 140px;
-    padding-top: 30px;
-}
-.bottom >h4{
-    margin-left: 140px;
-}
-.bottom >div{
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;
-}
-.bottom>div li{
-    padding: 20px;
-    font-size: 20px;
-    padding-left: 10px;
-    color: rgb(106,106,106);
-}
-.bottom>div >ul{
-    margin-left: 10px;
-}
-.bottom div ul >hr{
-    width: 90%;
-    border: 0;
-    height: .5px;
-    background: #000;
-    opacity: 0.2;
-}
 
-/* footer css */
+
+
+    /* footer css */
 #footer{
     background-color: black;
     color: white;
     width: 100%;
     height: 320px;
-}
-#footer li:hover{
-    cursor: pointer;
 }
 #footer>div{
     width: 80%;
@@ -280,9 +276,6 @@
 #footer4>img{
     margin-top: 30px;
 }
-#footer4>img:hover{
-    cursor: pointer;
-}
 #footer>img+img{
     margin-top: 20px;
 }
@@ -310,7 +303,4 @@
 }
 #icon>div{
     padding: 15px;
-}
-#icon>div>img:hover{
-    cursor: pointer;
 }

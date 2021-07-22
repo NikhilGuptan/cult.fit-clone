@@ -13,8 +13,8 @@
         overflow: hidden;  
         background-color: white;
     }
-
-    .sticky {
+       
+      .sticky {
            position: fixed;
             top: 0;
             width: 100%;
@@ -81,9 +81,6 @@
         height: 20%;
         margin-left: 5px;
     }
-    #profile:hover,#cart:hover,#arrow:hover,#location:hover,#logo:hover{
-        cursor: pointer;
-    }
     .posterDiv{
         margin: auto;
     }
@@ -131,59 +128,45 @@
         cursor: pointer;
     }
 
-    
+    #healthHome{
+        width: 100%;
+    }
+    #slidShow>img{
+        width: 100%;
+    }
+    #slidShow>img:hover{
+        cursor: pointer;
+    }
 
+    #specilistH2{
+        margin: 50px;
+        margin-left: 150px;
+        margin-bottom: 0%;
+    }
+    #specilistH4{
+        margin-top: 5px;
+        margin-bottom: 50px;
+        margin-left: 150px;
+        color: rgb(144,142,142);
+        font-weight: 100;
+    }
 
-#store_div{
-    display: grid;
-    grid-template-columns: repeat(5,20%);
-    width: 80%;
-    margin: auto;
-    row-gap: 50px;
-}
-#store_div img{
-    width: 95%;
+    #specilist{
+        display: grid;
+        width: 80%;
+        margin: auto;
+        grid-template-columns: repeat(5,20%);
+        row-gap: 50px;
+    }
+    #specilist >div>img{
+        width: 90%;
+        border-radius: 10px;
+    }
+    #specilist >div>img:hover{
+        cursor: pointer;
+    }
 
-}
-#store_div p{
-    margin-top: 0%;
-    margin-bottom: 2px;
-}
-.title{
-    color: rgb(155,155,155);
-}
-.price{
-    font-weight: bold;
-}
-#store_div > div:hover{
-    cursor: pointer;
-}
-.cprice{
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: line-through;
-}
-.discound{
-    color: rgb(255,50,120);
-}
-.text{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.text >h1{
-    text-align: center;
-    color: rgb(110,110,110);
-    font-size: 70px;
-    margin-bottom: 0%;
-}
-.text > h2{
-    margin-left: 220px;
-    margin-top: 0%;
-    font-size: 25px;
-    color: rgb(178,178,178);
-}
-
-/* before footer css */
+    /* before footer css */
 .bottom{
     width: 100%;
     background-color: rgb(242,244,248);
@@ -217,15 +200,30 @@
     opacity: 0.2;
 }
 
+#aboubFooter>h1{
+    font-size: 70px;
+    margin-top: 40px;
+    margin-left: 120px;
+    color: rgb(110,110,110);
+}
+#aboubFooter>h2{
+    font-size: 60px;
+    margin-left: 120px;
+    color: rgb(204,204,204);
+}
+#aboubFooter>h3{
+    font-size: 40px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    color: rgb(204,204,204);
+}
+
 /* footer css */
-#footer{
+    #footer{
     background-color: black;
     color: white;
     width: 100%;
     height: 320px;
-}
-#footer li:hover{
-    cursor: pointer;
 }
 #footer>div{
     width: 80%;
@@ -280,9 +278,6 @@
 #footer4>img{
     margin-top: 30px;
 }
-#footer4>img:hover{
-    cursor: pointer;
-}
 #footer>img+img{
     margin-top: 20px;
 }
@@ -310,7 +305,4 @@
 }
 #icon>div{
     padding: 15px;
-}
-#icon>div>img:hover{
-    cursor: pointer;
 }
