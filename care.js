@@ -34,3 +34,13 @@ function slidShow(){
     }
 
     slidShow();
+
+function goToHome() {
+        window.location.href = "home.html"
+}
+    
+function card() {
+
+    window.location.href = "card.html";
+
+}

@@ -1,0 +1,135 @@
+
+        body{
+            padding:50px
+        }
+        #box{
+            width:480px;
+            height:180px;
+             border-bottom:0.5px solid rgb(206, 198, 198);
+             margin-bottom: 15px;
+             /* border:1px solid black; */
+            
+        }
+        #cross{
+            max-width:10px;
+            max-height:10px;
+            float:right
+        }
+        #cross:hover{
+            cursor: pointer;
+        }
+        #data{
+            float:left
+        }
+    
+        #box1 img{
+            width:130px;
+            height:150px;
+            padding: 5px;
+            
+        }
+        #box2{
+            width:300px;
+            height:180px;
+            /* border:1px solid black; */
+            float:right
+        }
+        #box1{
+            float:left;
+            /* border:1px solid black */
+        }
+        p{
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .text{
+            font-family:Arial, Helvetica, sans-serif;
+          max-height: 36px;
+            font-size: 15px;
+            line-height: 1.2;
+            color: #9b9b9b;
+            margin-top: 5px;
+        
+                }
+         #num{
+                    border:1px solid rgb(255,77,138);
+                    width:60px;
+                    height:25px;
+                    border-radius: 9px;
+                    margin-left: 250px;
+                }
+
+         #minus,#plus{
+                max-height:12px;
+                max-width:12px;
+                padding:5px
+            }    
+            #span{
+                /* border:1px solid black; */
+                height:8px;
+                width:8px;
+                margin:0px;
+                font-size: 22px;
+            }
+         #block{
+            width:500px;
+            height:200px;
+            /* border:1px solid black; */
+            float:right;
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;
+         }
+         .price_block{
+             float:left;
+             font-family: BrandonTextWeb-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #9b9b9b;
+         }
+         #dis_block{
+             float:right;
+             width:100px;
+             height:100px;
+             color: #9b9b9b;
+             /* border:1px solid black */
+         }
+         /* #price,#dis{
+            border:1px solid black
+         } */
+          #price{
+             clear:right
+         } 
+
+         #total{
+             font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            clear:left;
+            color:black;
+            font-size: 16px;
+
+         }
+         #tot{
+             color:black
+         }
+       
+         .payment{
+            font-family:Arial, Helvetica, sans-serif;
+            color:white;
+            font-size: 13px;
+             width:150px;
+             height:22px;
+             text-align: center;
+             padding:10px;
+             border-radius:50px;
+             margin-left:350px;
+             margin-top:150px;
+             background-color: rgb(249,65,60);
+         }
+         .payment:hover{
+             cursor: pointer;
+         }
+
+    

@@ -12,7 +12,7 @@ var sticky = navbar.offsetTop;
 
 
 var selected = JSON.parse(localStorage.getItem("selectedItem"));
-console.log(selected);
+
 
 document.getElementById("images1").src = selected.image;
 document.getElementById("images2").src = selected.image;
@@ -28,3 +28,62 @@ document.getElementById("discount").innerText = `${selected.discount}`;
 
 
 
+
+function itemAddedToCard(){
+
+  let arr;
+    arr = localStorage.getItem('itemAddedToCard');
+
+    if (arr == null) {
+        arr = [];
+    } else {
+        
+        arr=JSON.parse(localStorage.getItem('itemAddedToCard'))
+    }
+
+    arr.push(selected)
+
+  localStorage.setItem('itemAddedToCard', JSON.stringify(arr))
+  
+buyNow();
+  
+
+}
+
+function buyNow() {
+
+  var items = JSON.parse(localStorage.getItem("itemAddedToCard"));
+
+  if (items.length>0) {
+    document.getElementById("buyNow").innerHTML = `View Card(${items.length})`;
+} else {
+   document.getElementById("buyNow").innerHTML = `buy Now`;
+  }
+
+}
+
+buyNow();
+
+// going to cardPage
+
+function cardPage() {
+
+  let buyNow = document.getElementById("buyNow").innerHTML;
+  if (buyNow == "buy Now") {
+    alert("Please Add Some Item")
+  } else {
+    window.location.href = "card.html";
+  }
+
+}
+
+
+function goToHome() {
+        window.location.href = "home.html"
+}
+    
+function card() {
+
+    window.location.href = "card.html";
+
+}

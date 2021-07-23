@@ -1,0 +1,340 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+        font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+#navBlock {
+        display: flex;
+        height: 62px;
+        /* border: 1px solid black; */
+        box-shadow: 0px 10px 10px -15px #111;
+        overflow: hidden;  
+        background-color: white;
+    }
+
+    .sticky {
+           position: fixed;
+            top: 0;
+            width: 100%;
+           }
+
+    #logo {
+        justify-content: left;
+        align-self: center;
+        margin: 18px;
+        margin-right: 10px;
+    }
+
+    #text {
+        font-family: 'BrandonTextWeb-Regular';
+        display: flex;
+        font-size: 25px;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cultsport {
+        margin-left: 600px;
+        margin-top: 10px;
+        justify-content: center;
+        align-self: center;
+        color: red;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #navitems {
+        display: flex;
+        margin-left: 480px;
+        justify-content: space-around;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #navitems div {
+        justify-content: center;
+        align-self: center;
+        margin-left: 15px;
+    }
+
+    #profile {
+        align-self: center;
+        width: auto;
+        height: 65%;
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+
+    #cart {
+        align-self: center;
+        width: auto;
+        height: 45%;
+        margin-left: 20px;
+    }
+
+    #arrow {
+        align-self: center;
+        width: auto;
+        height: 20%;
+        margin-left: 5px;
+    }
+    #profile:hover,#cart:hover,#arrow:hover,#location:hover,#logo:hover{
+        cursor: pointer;
+    }
+    .posterDiv{
+        margin: auto;
+    }
+    #posture {
+        height: 300px;
+        width: 100%;  
+    }
+    #posture:hover{
+        cursor: pointer;
+    }
+
+    #loccart {
+        display: flex;
+        align-self: center;
+        margin: 200px;
+        width: 400px;
+    }
+
+    #categories {
+        font-size: 19px;
+        color: rgb(102, 99, 99);
+        margin-left: 183px;
+        margin-top: 28px;
+    }
+
+    #itemTypes {
+        display: flex;
+        justify-content: space-between;
+        width: 77%;
+        margin: auto;
+        
+        height: 187px;
+        margin-top: 13px;
+        margin-bottom: 15px;
+    }
+
+    #men,
+    #equipment,
+    #women {
+        width: 380px;
+        height: 187px;
+        border-radius: 20px;
+    }
+    #men:hover,#equipment:hover,#women:hover{
+        cursor: pointer;
+    }
+
+
+
+    #cont {
+        display: flex;
+        width: 100%;
+        height: 100%
+    }
+
+    #cont1 {
+        width: 25%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #prof {
+        padding: 20px;
+        float: left;
+    }
+
+    #name {
+        float: left;
+        margin-top: 35px
+    }
+
+    #name span {
+        font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 0px
+    }
+
+    #name p {
+        font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        font-size: 12px;
+        color: rgb(255, 49, 109);
+        margin-top: 5px
+    }
+
+    #items {
+        clear: left;
+        padding-top: 30px;
+        height: 420px
+    }
+
+    #items div {
+        /* border:1px solid black; */
+        height: 13%;
+        margin-left: 20px;
+    }
+
+    #items div>span {
+        font-size: 14px;
+        font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+        font-weight: unset;
+    }
+
+    #cartimg {
+        float: right;
+        margin-right: 20px;
+    }
+
+    #cont2 {
+        width: 75%;
+        height: 130%;
+        background-color: rgb(250, 251, 252);
+    }
+
+    #img2 {
+        margin-left: 450px;
+        margin-top: 60px;
+        width: 150px;
+        height: 150px;
+        border-radius: 52%;
+    }
+
+    #cont2 p {
+        margin-left: 50px;
+        margin-top: 40px;
+        font-size: 22px;
+        font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+    }
+
+    #block {
+        width: 950px;
+        height: 230px;
+        margin-left: 50px;
+    }
+
+    #box1 {
+        float: left;
+        width: 45%;
+        height: 100%;
+        line-height: 1.42857143;
+    }
+
+    #box1 p {
+        margin: 0px;
+        font-size: 13px;
+        font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+        font-weight: 700;
+        margin-top: 6px;
+    }
+
+    #malefema {
+        float: right
+    }
+
+    .gender {
+        width: 50px;
+        height: 30px;
+        padding-top: 5px;
+        border: auto;
+    }
+
+    .male {
+        border-right: 2px solid rgb(160, 160, 160);
+    }
+
+    #vertline {
+        float: right;
+        height: 30px;
+        width: 1px;
+    }
+
+    #box1 span {
+        font-size: 12px;
+        font-family: BrandonTextWeb-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+    }
+
+    #box1 hr {
+        height: 0.5px;
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+
+    #box2 {
+        float: right;
+        width: 40%;
+        height: 100%;
+        margin-right: 40px;
+    }
+
+    #box2 p {
+        margin: 0px;
+        font-size: 16px;
+        font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+        font-weight: 700;
+        margin-top: 12px;
+    }
+
+    #box2 span {
+        font-size: 12px;
+        margin-bottom: 50px;
+        font-family: BrandonTextWeb-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+    }
+
+    #box2 hr {
+        height: 0.5px;
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+
+    #date {
+        margin-bottom: 15px;
+    }
+
+    .grey {
+        color: grey;
+        font-weight: bold;
+    }
+
+    #google {
+        height: 32px;
+        width: 250px;
+        padding: 10px;
+        margin-top: 40px;
+        border-radius: 8px;
+        background-color: rgb(67, 133, 244)
+    }
+
+    #fb {
+        height: 32px;
+        width: 250px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: rgb(66, 103, 178);
+        margin-top: 20px;
+    }
+
+    #google,
+    #fb {
+        margin-left: 400px;
+        font-family: BrandonTextWeb-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+    }
+
+    .glogo,
+    .text {
+        float: left;
+    }
+
+    .text {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 50px;
+        margin-top: 5px;
+    }

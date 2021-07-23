@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(224, 217, 217);
+}
+#payment{
+    width:50%;
+    margin:auto;
+    /* height:600px; */
+    background-color: white;
+    margin-top: 50px;
+}
+#text{
+    height:150px;
+    width:90%;
+    margin: auto;
+    margin-bottom: 0px;
+
+}
+#pay{
+    font-size: 28px;
+    width:200px;
+    margin-left: 15px;
+    margin-top: 50px;
+    /* border:1px solid black; */
+    float:left
+
+}
+.visa{
+    max-width:70px;
+    max-height:40px;
+    margin-top: 40px;
+    float:right
+}
+#razor{
+    margin-top:50px
+}
+#details{
+    width:600px;
+    margin:auto;
+    height:400px;
+    /* border:1px solid black; */
+}
+.name{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(70, 69, 69)
+    
+}
+.name_box{
+    width:450px;
+    height:30px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+#exp,#cv{
+    width:150px;
+    height:30px;
+}
+.send{
+    background-color:rgb(197, 194, 194) ;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    margin-left:20px;
+    border:1 px black;
+    
+}
+#box1,#box2{
+    width:180px;
+    height:80px;
+    /* border:1px solid black; */
+    float:left;
+    margin-bottom: 30px;
+}
+#box2{
+    width:300px
+}
+
+
+#order{
+    width:170px;
+    height:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    margin-left:80px ;
+    margin-right: 30px;
+    background-color: teal;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    padding:12px;
+    float:left
+}
+#order:hover{
+    cursor: pointer;
+}
+#cancel:hover{
+    cursor: pointer;
+}
+
+#cancel{
+    width:170px;
+    height:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    background-color: grey;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    padding:12px;
+    float:left
+}

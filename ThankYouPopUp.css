@@ -1,0 +1,48 @@
+
+
+ #parent{
+            border: 1px solid black;
+            background-color: whitesmoke;
+            width: 35%;
+            height: 400px;
+            margin: auto;
+            margin-top: 80px;
+            text-align: center;
+            align-items: center;
+            box-shadow: 0 0 10px;
+            border-radius: 10px;
+        }
+        #parent h1{
+            margin-bottom: 0%;
+            color: rgb(53,60,56);
+            font-size: 50px;
+        }
+        #parent h2{
+            margin-top: 0%;
+            color: rgb(148,150,149);
+            font-size: 34px;
+        }
+        #parentDiv{
+            width: 60%;
+            margin: auto;
+            height: 130px;
+            border: 1px solid violet;
+            background-color: rgb(37, 36, 36);
+            text-align: center;
+            align-items: center;
+            color: white;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+        #parentDiv > button{
+            width: 30%;
+            height: 30px;
+            margin-top: 10px;
+            color: white;
+            background-color: rgb(99, 105, 101);
+            font-weight: bold;
+        }
+
+        #parentDiv > button:hover{
+          cursor: pointer;
+        }

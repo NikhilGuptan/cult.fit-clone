@@ -82,6 +82,9 @@
         height: 20%;
         margin-left: 5px;
     }
+    #profile:hover,#cart:hover,#arrow:hover,#location:hover,#logo:hover{
+        cursor: pointer;
+    }
     .posterDiv{
         margin: auto;
     }

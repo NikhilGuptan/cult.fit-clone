@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    
+    <!-- navbar of store page -->
+        <div id="navBlock">
+            <div id="logo">
+                <image src="https://static.cure.fit/assets/images/curefit-v-man.svg"></image>
+            </div>
+            <div id="text">
+                .fit store
+            </div>
+            <div id="cultsport">
+                cultsport
+            </div>
+            <div id="navitems">
+                <div onclick="showLocation()" id="location">Mumbai</div>
+                <image id="profile" src="https://static.cure.fit/assets/images/user-default.png"></image>
+                <image id="arrow" src="https://static.cure.fit/assets/images/arrow-clp.svg"></image>
+                <image id="cart" src="https://static.cure.fit/assets/images/cart-image.svg"></image>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div id="cont">
+            <div id="cont1">
+                <div id="details">
+                    <image id="prof" src="https://static.cure.fit/assets/images/user-default.png"></image>
+                    <div id="name">
+                        <span>Nikhil</span>
+                        <p>VIEW PROFILE</p>
+                    </div>
+                </div>
+                <div id="items">
+                    <div id="item1">
+                        <span>Orders</span>
+                        <image id="cartimg" src="https://static.cure.fit/assets/images/cart-black.svg"></image>
+                    </div>
+                    <div id="item1">
+                        <span>Medical Records</span>
+                        <image id="cartimg" src="https://static.cure.fit/assets/images/health-profile-black.svg"></image>
+                    </div>
+                    <div id="item1">
+                        <span>Active Packs and Subscription</span>
+                        <image id="cartimg" src="https://static.cure.fit/assets/images/combined-shape-black.svg"></image>
+                    </div>
+                    <div id="item1">
+                        <span>Redeem Voucher</span>
+                        <image id="cartimg" src="https://static.cure.fit/assets/images/coupon-black.svg"></image>
+                    </div>
+                    <div id="item1">
+                        <span>Account</span>
+                        <image id="cartimg" src="https://static.cure.fit/assets/images/settings-black.svg"></image>
+                    </div>
+                    <div id="item1">
+                        <span>Support</span>
+                        <image id="cartimg" src="https://static.cure.fit/assets/images/support-black.svg"></image>
+                    </div>
+                    <div id="item1">
+                        <span>Logout</span>
+                        <image id="cartimg" src="https://static.cure.fit/assets/images/logout-black.svg"></image>
+                    </div>
+                </div>
+            </div>
+            <div id="cont2">
+                <image id="img2" src="https://static.cure.fit/assets/images/user-default.png"></image>
+                <p>PROFILE</p>
+                <div id="block">
+                    <div id="box1">
+                        <span>NAME</span>
+                        <p>Nikhil</p>
+                        <hr>
+                        <span>GENDER</span>
+                        <div id="malefema">
+                            <image class="gender male" src="https://static.cure.fit/assets/images/male-inactive.svg">
+                            </image>
+                            <div id="vertline"></div>
+                            <image class="gender" src="https://static.cure.fit/assets/images/female-active.svg"></image>
+                        </div>
+                        <p>Male</p>
+                        <hr id="hr2">
+                        <span>EMAIL</span>
+                        <p class="grey">******@gmail.com</p>
+                        <hr>
+                    </div>
+                    <div id="box2">
+                        <span>PHONE NUMBER</span>
+                        <p class="grey">91-9845764852</p>
+                        <hr>
+                        <span>DATE OF BIRTH</span>
+                        <p class="grey" id="date">15/08/1997</p>
+                        <hr>
+                        <span>WORK EMAIL</span>
+                        <p class="grey">******@masai.school</p>
+                        <hr>
+                    </div>
+                </div>
+                <div id="google">
+                    <image class="glogo" src="https://static.cure.fit/assets/images/google-new.svg"></image>
+                    <span class="text">Link Google</span>
+                </div>
+                <div id="fb">
+                    <image class="glogo" src="https://static.cure.fit/assets/images/facebook-new.svg"></image>
+                    <span class="text">Link Facebook</span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+</body>
+
+<script>
+
+    window.onscroll = function () {
+
+            if (window.pageYOffset >= sticky) {
+                navbar.setAttribute("class", "sticky")
+            }
+
+        };
+        var navbar = document.getElementById("navBlock");
+        var sticky = navbar.offsetTop;
+
+</script>
+</html>
