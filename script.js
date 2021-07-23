@@ -19,14 +19,14 @@ function showLocation ()
 }
 
 // set location name in navbar
-function setLocationName ()
-{
-    var locationName = document.getElementById( "city-Name" ).getAttribute( 'value' );
-    document.getElementById( "city-Name" ).style.color = "rgb(255, 50, 120);"
-    // var locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
-    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
-    console.log( locationName );
-}
+// function setLocationName ()
+// {
+//     var locationName = document.getElementById( "city-Name" ).getAttribute( 'value' );
+//     document.getElementById( "city-Name" ).style.color = "rgb(255, 50, 120);"
+//     // var locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
+//     document.getElementById( "showSelectedLocationName" ).textContent = locationName;
+//     console.log( locationName );
+// }
 
 
 // Mute/Unmute Button functions
@@ -80,7 +80,7 @@ function validNumber ()
     var num = document.getElementById( "mobNum" ).value;
     if ( num.length == 9 )
     {
-        console.log( num.length );
+        
         document.getElementById( "continueBtn" ).style.backgroundImage = " linear-gradient(101deg, rgb( 247, 69, 48 ), rgb( 255, 46, 115 ))";
         document.getElementById( "continueBtn" ).style.boxShadow = " rgb(247 123 155 / 71%) 0px 3px 16px 0px";
     } else
@@ -89,6 +89,9 @@ function validNumber ()
         document.getElementById( "continueBtn" ).style.boxShadow = " none";
     }
 }
+
+validNumber();
+
 
 
 // div: Cult animations
@@ -232,3 +235,18 @@ function cart() {
     window.location.href = "card.html";
 
 }
+
+function goToProfile(){
+
+    let number = document.getElementById("mobNum").value;
+    console.log(number);
+
+    if (number.length==10) {
+        window.location.href = "profile.html";
+    } else {
+        alert("enter valid Number");
+    }
+
+
+}
+

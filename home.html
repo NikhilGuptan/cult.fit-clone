@@ -72,7 +72,7 @@
                     <!-- location -->
                     <div-1 id="showLocation" class="rhsNav" onclick="showLocation()">
                         <div class="cityCircle"></div>
-                        <span class="cityName" id="showSelectedLocationName">Bangalore</span>
+                        <span class="cityName" id="showSelectedLocationName">Mumbai</span>
                     </div-1>
 
                 </div3>
@@ -107,7 +107,7 @@
                         </div>
 
                         <!-- login continue button -->
-                        <div class="ActionContainer"><button class="ContinueButton" id="continueBtn">Continue</button>
+                        <div class="ActionContainer"><button style="background-color: linear-gradient(101deg, rgb( 247, 69, 48 ), rgb( 255, 46, 115 ));" class="ContinueButton" onclick="goToProfile()" id="continueBtn">Continue</button>
                         </div>
 
                         <!-- turm & condition line -->
@@ -161,7 +161,7 @@
                                                                         src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/blr_new.png"
                                                                         class="cityImg">
                                                                 </div>
-                                                                <div class="city-title ">
+                                                                <div class="city-title">
                                                                     Bangalore</div>
                                                             </div>
                                                             <div class="city-card " id="city-Name"
@@ -170,7 +170,7 @@
                                                                         src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/ncr_new.png"
                                                                         class="cityImg">
                                                                 </div>
-                                                                <div class="city-title ">Delhi NCR
+                                                                <div class="city-title" id="dilhi" onclick="changeCity()">Delhi NCR
                                                                 </div>
                                                             </div>
                                                             <div class="city-card " id="city-Name"
@@ -195,8 +195,8 @@
                                                         <div class="other-city-header">OTHER CITY</div>
                                                         <div class="cities-wrapper">
                                                             <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Chennai" class="city-title ">
+                                                                <div id="chennai" onclick="changeCity()"
+                                                                    value="Chennai"  class="city-title ">
                                                                     Chennai
                                                                 </div>
                                                             </div>
@@ -334,7 +334,7 @@
 
 
                 <!-- 1st div : for the fun of-->
-                <div id="fit">
+                <div id="fit" >
                     <div id="forTheFit">
                         <div class="content">
                             <div class="slider-wrapper">
@@ -370,12 +370,12 @@
 
 
                 <!-- 2nd div: cult -->
-                <div class="middleDivs">
-                    <div style="margin-left: 5%;">
+                <div class="middleDivs" m>
+                    <div style="margin-left: 10%;">
                         <img style="position: relative; width: 90px;"
                             src="https://static.cure.fit/assets/images/cult-brand.svg">
                     </div>
-                    <div style="margin-left: 5%;">
+                    <div style="margin-left: 10%;">
                         <p class="divSubHeadingLeft">Makes fitness fun
                             and easy</p>
                         <h1 class=" divSubHeadingRight">Explore
@@ -383,7 +383,7 @@
                                 class="arrowImg">
                         </h1>
                     </div>
-                    <div class="nestedSubHeading">
+                    <div class="nestedSubHeading" style="margin-left: 10%;">
                         <p>Try our fun group classes at our cult centers or work
                             out at
                             best-in-class gyms
@@ -453,18 +453,18 @@
 
                 <!-- 3rd div: careFit -->
                 <div class="middleDivs">
-                    <div style="margin-left: 5%;">
+                    <div style="margin-left: 10%;">
                         <img style="position: relative; width: 180px;"
                             src="https://static.cure.fit/assets/images/care-title.svg">
                     </div>
-                    <div style="margin-left: 5%;">
+                    <div style="margin-left: 10%;">
                         <p class="divSubHeadingLeft">Making health easy and accessible</p>
                         <h1 class=" divSubHeadingRight">Explore
                             <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
                                 class="arrowImg">
                         </h1>
                     </div>
-                    <div class="nestedSubHeading">
+                    <div class="nestedSubHeading" style="margin-left: 10%;">
                         <p>Book online doctor consultations and schedule diagnostic tests at home.</p>
                     </div>
                     <div class="d" style="margin-left: 150px;">
@@ -523,18 +523,18 @@
 
                 <!-- 4th div: mindFit -->
                 <div class="middleDivs">
-                    <div style="margin-left: 5%;">
+                    <div style="margin-left: 10%;">
                         <img style="position: relative; width: 202px;"
                             src="https://static.cure.fit/assets/images/mind-title.svg">
                     </div>
-                    <div style="margin-left: 5%;">
+                    <div style="margin-left: 10%;">
                         <p class="divSubHeadingLeft">Mind and Body fitness</p>
                         <h1 class=" divSubHeadingRight">Explore
                             <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
                                 class="arrowImg">
                         </h1>
                     </div>
-                    <div class="nestedSubHeading">
+                    <div class="nestedSubHeading" style="margin-left: 10%;">
                         <p>Experience mindfulness with our guided yoga, meditation & therapy
                             sessions.</p>
                     </div>
