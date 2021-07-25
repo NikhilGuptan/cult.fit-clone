@@ -65,7 +65,7 @@ This entire journey of making the project was awesome. We learned lots of things
 
 # # # Limitations:
 
-Not responsive yet and might not be properly visible on small screen devices (Recomended Resolution: 1366 x 768 )
+Not responsive yet and might not be properly visible on small screen devices (Recomended Resolution: 1496 x 768 )
 
 # # # Live Video Demo🎥:
 
