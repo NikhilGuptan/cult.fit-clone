@@ -78,7 +78,7 @@ Not responsive yet and might not be properly visible on small screen devices (Re
 * Github:https://github.com/Sharad13
 
 👤 Anup Kumar Pandey
-* Github:
+* Github: https://github.com/Anuppandey009
 
 👤 Akash Chandra
 * Github:https://github.com/chandra-akash
