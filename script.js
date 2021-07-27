@@ -19,14 +19,32 @@ function showLocation ()
 }
 
 // set location name in navbar
-// function setLocationName ()
-// {
-//     var locationName = document.getElementById( "city-Name" ).getAttribute( 'value' );
-//     document.getElementById( "city-Name" ).style.color = "rgb(255, 50, 120);"
-//     // var locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
-//     document.getElementById( "showSelectedLocationName" ).textContent = locationName;
-//     console.log( locationName );
-// }
+function setLocationNameBangalore ()
+{
+    var locationName = document.getElementById( "BangaloreTxt" ).innerHTML;
+    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 255, 50, 50 )";
+    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(0%)";
+    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
+    console.log( locationName );
+}
+function setLocationNameDelhi ()
+{
+    var locationName = document.getElementById( "DelhiTxt" ).innerHTML;
+    document.getElementById( "DelhiTxt" ).style.color = "rgb( 255, 50, 50 )";
+    document.getElementById( "DelhiImg" ).style.filter = "grayscale(0%)";
+    // var locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
+    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
+    console.log( locationName );
+}
+function setLocationNameMumbai ()
+{
+    var locationName = document.getElementById( "MumbaiTxt" ).innerHTML;
+    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 255, 50, 50 )";
+    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(0%)";
+    // var locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
+    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
+    console.log( locationName );
+}
 
 
 // Mute/Unmute Button functions
@@ -80,7 +98,7 @@ function validNumber ()
     var num = document.getElementById( "mobNum" ).value;
     if ( num.length == 9 )
     {
-        
+
         document.getElementById( "continueBtn" ).style.backgroundImage = " linear-gradient(101deg, rgb( 247, 69, 48 ), rgb( 255, 46, 115 ))";
         document.getElementById( "continueBtn" ).style.boxShadow = " rgb(247 123 155 / 71%) 0px 3px 16px 0px";
     } else
@@ -220,31 +238,37 @@ function increaseC3 ()
 
 // going to cult
 
-function goToCult() {
-    
+function goToCult ()
+{
+
     window.location.href = "care.html";
 
 }
 
-function goingToStorePage() {
+function goingToStorePage ()
+{
     window.location.href = "store.html";
 }
 
-function cart() {
+function cart ()
+{
 
     window.location.href = "card.html";
 
 }
 
-function goToProfile(){
+function goToProfile ()
+{
 
-    let number = document.getElementById("mobNum").value;
-    console.log(number);
+    let number = document.getElementById( "mobNum" ).value;
+    console.log( number );
 
-    if (number.length==10) {
+    if ( number.length == 10 )
+    {
         window.location.href = "profile.html";
-    } else {
-        alert("enter valid Number");
+    } else
+    {
+        alert( "enter valid Number" );
     }
 
 

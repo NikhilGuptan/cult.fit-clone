@@ -622,7 +622,6 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
 }
 .css-crhaw1-CitySelectionEmotionWrapper .city-card-container .city-card .city-image-card-container {
     width: 60px;
-    filter: grayscale(100%);
 }
 .city-title{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -632,6 +631,7 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
     background-color: #fff;
 }
 .cityImg{
+    filter: grayscale(100%);
     vertical-align: middle;
     border: 0;
     max-width: 100%;
