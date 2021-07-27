@@ -14,36 +14,95 @@ function showLocation ()
     } else
     {
         document.getElementById( "location" ).style.display = "none";
-        window.location.reload()
+        // window.location.reload()
     }
 }
 
 // set location name in navbar
 function setLocationNameBangalore ()
 {
-    var locationName = document.getElementById( "BangaloreTxt" ).innerHTML;
+    let locationName = document.getElementById( "BangaloreTxt" ).innerHTML;
     document.getElementById( "BangaloreTxt" ).style.color = "rgb( 255, 50, 50 )";
     document.getElementById( "BangaloreImg" ).style.filter = "grayscale(0%)";
     document.getElementById( "showSelectedLocationName" ).textContent = locationName;
+    document.getElementById( "DelhiTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "DelhiImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "KolkataTxt" ).style.color = "rgb( 22, 22, 22)";
     console.log( locationName );
+    document.getElementById( "location" ).style.display = "none";
 }
 function setLocationNameDelhi ()
 {
-    var locationName = document.getElementById( "DelhiTxt" ).innerHTML;
+    let locationName = document.getElementById( "DelhiTxt" ).innerHTML;
     document.getElementById( "DelhiTxt" ).style.color = "rgb( 255, 50, 50 )";
     document.getElementById( "DelhiImg" ).style.filter = "grayscale(0%)";
-    // var locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
+    // let locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
     document.getElementById( "showSelectedLocationName" ).textContent = locationName;
+    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "KolkataTxt" ).style.color = "rgb( 22, 22, 22)";
     console.log( locationName );
+    document.getElementById( "location" ).style.display = "none";
+}
+function setLocationNameHyderabad ()
+{
+    let locationName = document.getElementById( "HyderabadTxt" ).innerHTML;
+    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 255, 50, 50 )";
+    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(0%)";
+    // let locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
+    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
+    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "DelhiTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "DelhiImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "KolkataTxt" ).style.color = "rgb( 22, 22, 22)";
+    console.log( locationName );
+    document.getElementById( "location" ).style.display = "none";
 }
 function setLocationNameMumbai ()
 {
-    var locationName = document.getElementById( "MumbaiTxt" ).innerHTML;
+    let locationName = document.getElementById( "MumbaiTxt" ).innerHTML;
     document.getElementById( "MumbaiTxt" ).style.color = "rgb( 255, 50, 50 )";
     document.getElementById( "MumbaiImg" ).style.filter = "grayscale(0%)";
-    // var locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
+    // let locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
     document.getElementById( "showSelectedLocationName" ).textContent = locationName;
+    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "DelhiTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "DelhiImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "KolkataTxt" ).style.color = "rgb( 22, 22, 22)";
     console.log( locationName );
+    document.getElementById( "location" ).style.display = "none";
+    window.location.reload()
+}
+function setLocationNameKolkata ()
+{
+    let locationName = document.getElementById( "KolkataTxt" ).innerHTML;
+    document.getElementById( "KolkataTxt" ).style.color = "rgb( 255, 50, 50 )";
+    // let locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
+    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
+    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "DelhiTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "DelhiImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(100%)";
+    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 22, 22, 22 )";
+    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(100%)";
+    console.log( locationName );
+    document.getElementById( "location" ).style.display = "none";
 }
 
 

@@ -139,7 +139,8 @@
 
 
             <!-- location chart div -->
-            <div tabindex="-1" id="location" class="css-zyzl36-DialogContainer egcmzpn0">
+            <div tabindex="-1" id="location" class="css-zyzl36-DialogContainer egcmzpn0"
+                style="position: fixed; max-height: calc(100% - 64px); z-index: 5; background-color: rgba(0, 0, 0, 0.5); width: 100%; backdrop-filter: blur(7px);">
                 <div class="css-6c1lfh-TransitionComponent egcmzpn2">
                     <div class="css-1qvrogn-DialogBox egcmzpn1">
                         <div class="css-1bffdxu-DialogBody egcmzpn3">
@@ -174,21 +175,23 @@
                                                                 <div class="city-title" id="DelhiTxt">Delhi NCR
                                                                 </div>
                                                             </div>
-                                                            <div class="city-card " id="city-Name"
-                                                                onclick="setLocationName()" value="Hyderabad">
+                                                            <div class="city-card "
+                                                                onclick="setLocationNameHyderabad()">
                                                                 <div class="city-image-card-container"><img
                                                                         src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/hyd_new.png"
-                                                                        class="cityImg">
+                                                                        class="cityImg" id="HyderabadImg">
                                                                 </div>
-                                                                <div class="city-title ">Hyderabad
+                                                                <div class="city-title" id="HyderabadTxt">Hyderabad
                                                                 </div>
                                                             </div>
                                                             <div class="city-card " onclick="setLocationNameMumbai()">
                                                                 <div class="city-image-card-container"><img
                                                                         src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/mumbai_selected.png"
-                                                                        class="cityImg" id="MumbaiImg">
+                                                                        class="cityImg" id="MumbaiImg"
+                                                                        style="filter: grayscale(0%);">
                                                                 </div>
-                                                                <div class="city-title " id="MumbaiTxt">
+                                                                <div class="city-title " id="MumbaiTxt"
+                                                                    style="color: rgb( 255, 50, 50 );">
                                                                     Mumbai</div>
                                                             </div>
                                                         </div>
@@ -221,8 +224,8 @@
                                                                     Pune</div>
                                                             </div>
                                                             <div class="city-card card-selected">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Kolkata" class="city-title active">
+                                                                <div id="KolkataTxt" onclick="setLocationNameKolkata()"
+                                                                    class="city-title active">
                                                                     Kolkata</div>
                                                             </div>
                                                             <div class="city-card ">
