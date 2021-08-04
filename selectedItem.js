@@ -44,6 +44,8 @@ function itemAddedToCard(){
     arr.push(selected)
 
   localStorage.setItem('itemAddedToCard', JSON.stringify(arr))
+
+  alert("item Added To Cart")
   
 buyNow();
   
@@ -55,7 +57,7 @@ function buyNow() {
   var items = JSON.parse(localStorage.getItem("itemAddedToCard"));
 
   if (items.length>0) {
-    document.getElementById("buyNow").innerHTML = `View Card(${items.length})`;
+    document.getElementById("buyNow").innerHTML = `View Cart(${items.length})`;
 } else {
    document.getElementById("buyNow").innerHTML = `buy Now`;
   }

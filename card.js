@@ -67,35 +67,35 @@ function appendProducts(el) {
 
         
 
-        let numItems=document.createElement("div")
-        numItems.setAttribute("id","num")
+        // let numItems=document.createElement("div")
+        // numItems.setAttribute("id","num")
 
-        let plus=document.createElement("img")
-        plus.setAttribute("id","plus")
-        plus.src="https://static.cure.fit/assets/images/plus.svg"
+        // let plus=document.createElement("img")
+        // plus.setAttribute("id","plus")
+        // plus.src="https://static.cure.fit/assets/images/plus.svg"
         
 
-        plus.addEventListener("click",function(){
-            c++
-            span.innerHTML=c
-        })
-        numItems.append(plus)
+        // plus.addEventListener("click",function(){
+        //     c++
+        //     span.innerHTML=c
+        // })
+        // numItems.append(plus)
 
-        let span=document.createElement("span")
-        span.setAttribute("id","span")
-        span.innerHTML=c
-        numItems.append(span)
+        // let span=document.createElement("span")
+        // span.setAttribute("id","span")
+        // span.innerHTML=c
+        // numItems.append(span)
 
-        let minus=document.createElement("img")
-        minus.setAttribute("id","minus")
-        minus.src="https://static.cure.fit/assets/images/minus.svg"
-        minus.addEventListener("click",function(){
-            c--
-            span.innerHTML=c
-        })
-        numItems.append(minus)
+        // let minus=document.createElement("img")
+        // minus.setAttribute("id","minus")
+        // minus.src="https://static.cure.fit/assets/images/minus.svg"
+        // minus.addEventListener("click",function(){
+        //     c--
+        //     span.innerHTML=c
+        // })
+        // numItems.append(minus)
 
-        div2.append(img1,h2_name,text,size,p_price,numItems)
+        div2.append(img1,h2_name,text,size,p_price)
 
 let img=document.createElement("img")
 img.src=el.image
@@ -155,7 +155,12 @@ function showingDis() {
         dis.innerHTML = `₹${d}`;
     }
 
-    tot.innerHTML = `₹${N - d}`;
+    // tot.innerHTML = `₹${N - d-1}`;
+    if (N - d - 1 == -1) {
+        tot.innerHTML = "₹0";
+    } else {
+        tot.innerHTML = `₹${N - d-1}`;
+    }
 
 }
 

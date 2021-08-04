@@ -247,6 +247,15 @@ function goToProfile(){
         alert("enter valid Number");
     }
 
+}
+
+function setLocation() {
+    
+    document.getElementById("showSelectedLocationName").innerHTML = document.getElementById("bangalore").innerHTML;
 
 }
+
+
+
+
 

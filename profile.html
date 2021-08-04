@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Get Fitness Workouts, Gyms, Health Care, &amp; Healthy Food in India by Cult.fit</title>
     <link rel="stylesheet" href="profile.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
     <!-- navbar of store page -->
         <div id="navBlock">
             <div id="logo">
-                <image src="https://static.cure.fit/assets/images/curefit-v-man.svg"></image>
+                <image onclick="goToHome()" src="https://static.cure.fit/assets/images/curefit-v-man.svg"></image>
             </div>
             <div id="text">
                 .fit store
@@ -133,5 +133,10 @@
         var navbar = document.getElementById("navBlock");
         var sticky = navbar.offsetTop;
 
+        function goToHome(){
+
+            window.location.href = "home.html"
+
+        }   
 </script>
 </html>
