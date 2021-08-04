@@ -23,7 +23,6 @@ nav{
 nav img{
     width: 38px;
     height:42.22222222222222px;
-    cursor: pointer;
 }
 div2{
     align-items: center;
@@ -46,6 +45,7 @@ nav div2 ul li{
 }
 nav div2 ul li:hover{
     opacity: 0.4;
+    cursor: pointer;
 }
 nav div2 ul li a img{
     height: 25px;
@@ -534,8 +534,8 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
     display: none;
 }
 .css-6c1lfh-TransitionComponent {
-    animation: 0.5s ease-out 0s 1 normal none running animation-jvw5ve;
-    z-index: 5;
+    /* animation: 0.5s ease-out 0s 1 normal none running animation-jvw5ve; */
+    /* z-index: 5; */
     max-height: calc(100% - 64px);
     height: auto;
     width: 70%;
@@ -622,7 +622,6 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
 }
 .css-crhaw1-CitySelectionEmotionWrapper .city-card-container .city-card .city-image-card-container {
     width: 60px;
-    filter: grayscale(100%);
 }
 .city-title{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -632,6 +631,7 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
     background-color: #fff;
 }
 .cityImg{
+    filter: grayscale(100%);
     vertical-align: middle;
     border: 0;
     max-width: 100%;
