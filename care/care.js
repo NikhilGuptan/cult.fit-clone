@@ -36,11 +36,11 @@ function slidShow(){
     slidShow();
 
 function goToHome() {
-        window.location.href = "home.html"
+        window.location.href = "../home/home.html"
 }
     
 function card() {
 
-    window.location.href = "card.html";
+    window.location.href = "../card/card.html";
 
 }

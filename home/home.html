@@ -69,11 +69,7 @@
                         <div class="login-text" style="margin-top: 4px;">Login</div>
                     </div-2>
 
-                    <!-- location -->
-                    <div-1 id="showLocation" class="rhsNav" onclick="showLocation()">
-                        <div class="cityCircle"></div>
-                        <span class="cityName" id="showSelectedLocationName">Mumbai</span>
-                    </div-1>
+                    
 
                 </div3>
 
@@ -138,196 +134,7 @@
             </div>
 
 
-            <!-- location chart div -->
-            <div tabindex="-1" id="location" class="css-zyzl36-DialogContainer egcmzpn0"
-                style="position: fixed; max-height: calc(100% - 64px); z-index: 5; background-color: rgba(0, 0, 0, 0.5); width: 100%; backdrop-filter: blur(7px);">
-                <div class="css-6c1lfh-TransitionComponent egcmzpn2">
-                    <div class="css-1qvrogn-DialogBox egcmzpn1">
-                        <div class="css-1bffdxu-DialogBody egcmzpn3">
-                            <div class="css-crhaw1-CitySelectionEmotionWrapper e103vrdf0">
-                                <div class="row city-chooser">
-                                    <div class="col-sm-12 col-md-10 col-xs-10 country-wrapper">
-                                        <div class="select-text">Select your Location</div>
-                                    </div>
-                                </div>
-                                <div class="row city-chooser block-padding">
-                                    <div class=" col-sm-12 col-md-12  col-xs-10 country-wrapper">
-                                        <div class="tabs">
-                                            <div class="css-yegumc-TabContent egczin71">
-                                                <div label="INDIA">
-                                                    <div class="cities-card">
-                                                        <div class="city-header">POPULAR CITY</div>
-                                                        <div class="row city-card-container">
-                                                            <div class="city-card "
-                                                                onclick="setLocationNameBangalore()">
-                                                                <div class="city-image-card-container"><img
-                                                                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/blr_new.png"
-                                                                        class="cityImg" id="BangaloreImg">
-                                                                </div>
-                                                              
-                                                                <div class="city-image-card-container"><img
-                                                                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/ncr_new.png"
-                                                                        class="cityImg" id="DelhiImg">
-                                                                </div>
-                                                                <div class="city-title" id="DelhiTxt">Delhi NCR
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card "
-                                                                onclick="setLocationNameHyderabad()">
-                                                                <div class="city-image-card-container"><img
-                                                                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/hyd_new.png"
-                                                                        class="cityImg" id="HyderabadImg">
-                                                                </div>
-                                                                <div class="city-title" id="HyderabadTxt">Hyderabad
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card " onclick="setLocationNameMumbai()">
-                                                                <div class="city-image-card-container"><img
-                                                                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_50,h_50,ar_1/dpr_2/image/cities/mumbai_selected.png"
-                                                                        class="cityImg" id="MumbaiImg"
-                                                                        style="filter: grayscale(0%);">
-                                                                </div>
-                                                                <div class="city-title " id="MumbaiTxt"
-                                                                    style="color: rgb( 255, 50, 50 );">
-                                                                    Mumbai</div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="other-city-header">OTHER CITY</div>
-                                                        <div class="cities-wrapper">
-                                                            <div class="city-card ">
-                                                                <div id="chennai" onclick="changeCity()" value="Chennai"
-                                                                    class="city-title ">
-                                                                    Chennai
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Visakhapatnam" class="city-title ">
-                                                                    Visakhapatnam</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Jaipur" class="city-title ">
-                                                                    Jaipur</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Vadodara" class="city-title ">Vadodara
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Pune" class="city-title ">
-                                                                    Pune</div>
-                                                            </div>
-                                                            <div class="city-card card-selected">
-                                                                <div id="KolkataTxt" onclick="setLocationNameKolkata()"
-                                                                    class="city-title active">
-                                                                    Kolkata</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Ahmedabad" class="city-title ">Ahmedabad
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Mysore" class="city-title ">
-                                                                    Mysore</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Chandigarh Tricity" class="city-title ">
-                                                                    Chandigarh Tricity
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div class="city-title ">Kota</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Kochi" class="city-title ">
-                                                                    Kochi</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Ludhiana" class="city-title ">Ludhiana
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Surat" class="city-title ">
-                                                                    Surat</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Jammu" class="city-title ">
-                                                                    Jammu</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Amritsar" class="city-title ">Amritsar
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Indore" class="city-title ">
-                                                                    Indore</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Coimbatore" class="city-title ">
-                                                                    Coimbatore</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Mangalore" class="city-title ">Mangalore
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Bhopal" class="city-title ">
-                                                                    Bhopal</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Nagpur" class="city-title ">
-                                                                    Nagpur</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Kanpur" class="city-title ">
-                                                                    Kanpur</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Agra" class="city-title ">
-                                                                    Agra</div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Lucknow" class="city-title ">
-                                                                    Lucknow
-                                                                </div>
-                                                            </div>
-                                                            <div class="city-card ">
-                                                                <div id="city-Name" onclick="setLocationName()"
-                                                                    value="Other" class="city-title ">
-                                                                    Other</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            
 
             <!-- body -->
             <div id="body">
@@ -371,41 +178,35 @@
 
                 <!-- 2nd div: cult -->
                 <div class="middleDivs">
-                    <div style="margin-left: 10%;">
-                        <img style="position: relative; width: 90px;"
-                            src="https://static.cure.fit/assets/images/cult-brand.svg">
+                    <div class="introDiv">
+                        <img style="position: relative; width: 90px;" src="https://static.cure.fit/assets/images/cult-brand.svg">
                     </div>
-                    <div style="margin-left: 10%;">
-                        <p class="divSubHeadingLeft">Makes fitness fun
-                            and easy</p>
+                    <div class="introDiv">
+                        <p class="divSubHeadingLeft">Makes fitness fun and easy</p>
                         <h1 class=" divSubHeadingRight">Explore
-                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
-                                class="arrowImg">
+                            <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back" class="arrowImg">
                         </h1>
                     </div>
-                    <div class="nestedSubHeading" style="margin-left: 10%;">
-                        <p>Try our fun group classes at our cult centers or work
-                            out at
-                            best-in-class gyms
-                        </p>
+                    <div class="nestedSubHeading" class="introDiv">
+                        <p>Try our fun group classes at our cult centers or workout at best-in-class gyms</p>
                     </div>
-                    <div class="d" style="margin-left: 150px;">
+
+                    <div class="d">
                         <div id="a1" onclick="goToCult()" class="divLHS" onmouseover="increaseA1()"
                             style=" background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/6285c073-5e3d-4abf-9189-21403628a1f4.png');">
                             <div class="innerDivContainer">
                                 <div>
-                                    <p class="innerDivHeader">Find a cult center
-                                        near you</p>
+                                    <p class="innerDivHeader">Find a cult center near you</p>
                                 </div>
-                                <div style="color: white; margin-top: 1%;" id="textContent1">
-                                    <p
-                                        style="font-size: 14px; color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.8;">
+                                <div id="textContent1">
+                                    <p class="bagroundImageDivInerContent1">
                                         Work out at the world class cult center with the <br>safest measure. From ample
                                         workout
                                         space to <br> ensure social distancing to frequent sanitisation, <br>cult is
                                         playing
                                         safe so
-                                        you don't have to. </p>
+                                        you don't have to. 
+                                    </p>
                                     <button class="divBtn divBtnHovr">EXPLORE</button>
                                 </div>
                             </div>
@@ -414,18 +215,17 @@
                             style="background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/f66c717a-bcb9-4d64-b227-115d1010b610.jpeg');">
                             <div class="innerDivContainer">
                                 <div>
-                                    <p class="innerDivHeader">Introducing Gyms by
-                                        cult</p>
+                                    <p class="innerDivHeader">Introducing Gyms by cult</p>
                                 </div>
-                                <div style="color: white; margin-top: 1%;" id="textContent2" class="hideContent">
-                                    <p
-                                        style="font-size: 14px; color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.8;">
+                                <div  id="textContent2" class="hideContent">
+                                    <p class="bagroundImageDivInerContent1">
                                         Get unlimited access to the best gyms in the town <br>with a cultpass.Carefully
                                         handpicked
                                         by cult, <br>these selected gyms boastof cult certified, <br>trainers,best in
                                         class
                                         saftey
-                                        and equipments <br> standards </p>
+                                        and equipments <br> standards 
+                                    </p>
                                     <button class="divBtn divBtnHovr">EXPLORE</button>
                                 </div>
                             </div>
@@ -436,12 +236,12 @@
                                 <div>
                                     <p class="innerDivHeader">Online PT</p>
                                 </div>
-                                <div style="color: white; margin-top: 1%;" id="textContent3" class="hideContent">
-                                    <p
-                                        style="font-size: 14px; color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.8;">
+                                <div id="textContent3" class="hideContent">
+                                    <p class="bagroundImageDivInerContent1">
                                         Personalised workout session with the best of <br>culttrainers to help you to
                                         acheieve your
-                                        fitness <br> goals from the comfort of home. </p>
+                                        fitness <br> goals from the comfort of home.
+                                     </p>
                                     <button class="divBtn divBtnHovr">KNOW MORE</button>
                                 </div>
                             </div>
@@ -453,33 +253,34 @@
 
                 <!-- 3rd div: careFit -->
                 <div class="middleDivs">
-                    <div style="margin-left: 10%;">
+                    <div class="introDiv">
                         <img style="position: relative; width: 180px;"
                             src="https://static.cure.fit/assets/images/care-title.svg">
                     </div>
-                    <div style="margin-left: 10%;">
+                    <div class="introDiv">
                         <p class="divSubHeadingLeft">Making health easy and accessible</p>
                         <h1 class=" divSubHeadingRight">Explore
                             <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
                                 class="arrowImg">
                         </h1>
                     </div>
-                    <div class="nestedSubHeading" style="margin-left: 10%;">
+                    <div class="nestedSubHeading" class="introDiv">
                         <p>Book online doctor consultations and schedule diagnostic tests at home.</p>
                     </div>
-                    <div class="d" style="margin-left: 150px;">
+
+                    <div class="d">
                         <div id="a2" onclick="goToCult()" class="divLHS" onmouseover="increaseA2()"
                             style="background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/0f4c194a-3d2c-453c-8a3a-fdf20bd03699.png');">
                             <div class="innerDivContainer">
                                 <div>
                                     <p class="innerMidleDivHeader">Online Doctor Consultation</p>
                                 </div>
-                                <div style="color:black; margin-top: 1%;" id="textContent4">
-                                    <p
-                                        style="font-size: 14px; color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.8;">
+                                <div id="textContent4">
+                                    <p class="bagroundImageDivInerContent2">
                                         Consult with our doctors and specialists like <br> orthopedics, pediatricians
                                         and
-                                        gynaecologists <br> for all your medical needs with minimum wait <br> time </p>
+                                        gynaecologists <br> for all your medical needs with minimum wait <br> time
+                                     </p>
                                     <button class="divBtnMidle divBtnHovr">CONSULT NOW</button>
                                 </div>
                             </div>
@@ -490,9 +291,8 @@
                                 <div>
                                     <p class="innerMidleDivHeader">Home lab test</p>
                                 </div>
-                                <div style="color: black; margin-top: 1%;" id="textContent5" class="hideContent">
-                                    <p
-                                        style="font-size: 14px; color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.8;">
+                                <div id="textContent5" class="hideContent">
+                                    <p class="bagroundImageDivInerContent2">
                                         Assess & monitor your health from the comfort <br> of your home - get full body
                                         comprehensive <br> health-checkup with actionable medical and <br> lifestyle
                                         care advice.
@@ -507,12 +307,11 @@
                                 <div>
                                     <p class="innerMidleDivHeader">Online Dietician Consultation</p>
                                 </div>
-                                <div style="color: black; margin-top: 1%;" id="textContent6" class="hideContent">
-                                    <p
-                                        style="font-size: 14px; color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.8;">
-                                        Our nutritionist will help you manage your <br> health with personalised diets
+                                <div id="textContent6" class="hideContent">
+                                    <p class="bagroundImageDivInerContent2">Our nutritionist will help you manage your <br> health with personalised diets
                                         and fitness
-                                        plans <br> based on your lifestyle preferences.</p>
+                                        plans <br> based on your lifestyle preferences.
+                                    </p>
                                     <button class="divBtnMidle divBtnHovr">CONSULT NOW</button>
                                 </div>
                             </div>
@@ -523,31 +322,30 @@
 
                 <!-- 4th div: mindFit -->
                 <div class="middleDivs">
-                    <div style="margin-left: 10%;">
+                    <div class="introDiv">
                         <img style="position: relative; width: 202px;"
                             src="https://static.cure.fit/assets/images/mind-title.svg">
                     </div>
-                    <div style="margin-left: 10%;">
+                    <div class="introDiv">
                         <p class="divSubHeadingLeft">Mind and Body fitness</p>
                         <h1 class=" divSubHeadingRight">Explore
                             <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
                                 class="arrowImg">
                         </h1>
                     </div>
-                    <div class="nestedSubHeading" style="margin-left: 10%;">
-                        <p>Experience mindfulness with our guided yoga, meditation & therapy
-                            sessions.</p>
+                    <div class="nestedSubHeading" class="introDiv">
+                        <p>Experience mindfulness with our guided yoga, meditation & therapy sessions.</p>
                     </div>
-                    <div class="d" style="margin-left: 150px;">
+
+                    <div class="d">
                         <div id="a3" onclick="goToCult()" class="divLHS" onmouseover="increaseA3()"
                             style="background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_2/image/vm/9f1b091f-b0ee-4920-8172-fb095c2d7a0b.png');">
                             <div class="innerDivContainer">
                                 <div>
                                     <p class="innerDivHeader">Online Therapy</p>
                                 </div>
-                                <div style="color: white; margin-top: 1%;" id="textContent7">
-                                    <p
-                                        style="font-size: 14px; color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                <div id="textContent7">
+                                    <p class="bagroundImageDivInerContent1">
                                         Take care of your mental and emotional fitness <br>in a safe, calm,and non
                                         judgemental <br>
                                         environment </p>
@@ -561,9 +359,8 @@
                                 <div>
                                     <p class="innerDivHeader">Meditation</p>
                                 </div>
-                                <div style="color: white; margin-top: 1%;" id="textContent8" class="hideContent">
-                                    <p
-                                        style="font-size: 14px; color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                <div id="textContent8" class="hideContent">
+                                    <p class="bagroundImageDivInerContent1">
                                         Let go of stressful thoughts and feelings with<br>guided meditations that will
                                         relax your
                                         mind <br>and body </p>
@@ -577,9 +374,8 @@
                                 <div>
                                     <p class="innerDivHeader">Sleep</p>
                                 </div>
-                                <div style="color: white; margin-top: 1%;" id="textContent9" class="hideContent">
-                                    <p
-                                        style="font-size: 14px; color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                <div id="textContent9" class="hideContent">
+                                    <p class="bagroundImageDivInerContent1">
                                         Soothing guided meditations,stories and music<br>that will help you sleep better
                                     </p>
                                     <button class="divBtn divBtnHovr">KNOW MORE</button>

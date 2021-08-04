@@ -21,8 +21,8 @@ nav{
     margin-top: 11px;
 }
 nav img{
-    width: 38px;
-    height:42.22222222222222px;
+    width: 100%;
+    height:42px;
 }
 div2{
     align-items: center;
@@ -202,10 +202,14 @@ nav div3 div-3 img{
 
 /* 2nd: cult, 3rd: careFit, 4th: mindFit div styles */
 .middleDivs{
-    width: 1277px;
+    width: 80%;
+    margin: auto;
     padding-top: 20px;
     padding-bottom: 40px;
     font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+.introDiv{
+   /* margin-left: 10%;  */
 }
 .divSubHeadingLeft{
    font-size: 17px;
@@ -221,7 +225,7 @@ nav div3 div-3 img{
 }
 .nestedSubHeading{
     clear: both;
-    margin-left: 5%; 
+    /* margin-left: 10%;  */
     font-size:small; 
     color: gray;
 }
@@ -234,10 +238,11 @@ nav div3 div-3 img{
  .d {
     width: 96%;
     height: 470px;
+    
     margin-top: 45px;
-    margin-left: 62px;
     display: flex;
     border-radius: 10px;
+    /* border: 1px solid black; */
 }
 .divLHS {
     width: 60%;
@@ -266,6 +271,18 @@ nav div3 div-3 img{
     color: white; 
     font-size: 18px;
     font-weight: 600;
+}
+.bagroundImageDivInerContent1{
+    font-size: 14px;
+    color: white; 
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
+}
+.bagroundImageDivInerContent2{
+    font-size: 14px;
+    color: black; 
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
 }
 .innerMidleDivHeader{
     color: black; 
