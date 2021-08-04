@@ -1,5 +1,12 @@
 body{
     margin: 0;
+        width: fit-content;
+}
+@media only screen and (min-width: 2945px) {
+  body {
+    margin: 0;
+     width: auto;
+  }
 }
 
 
@@ -110,8 +117,8 @@ nav div3 div-3 img{
   /* 1st div : for the fun of fit */
 #fit{
     z-index: 3;
-    margin: 75px 73px 0px 73px;
-    padding: 0;
+    /* margin: 75px 73px 0px 73px;
+    padding: 0; */
     display: grid;
     grid-template-columns: 33.5% 66.5%;
 }
@@ -158,7 +165,7 @@ nav div3 div-3 img{
     line-height: 40px;
 }
 #video{
-    height: 500px;
+    /* height: 500px; */
     position: relative;
 }
 .css-izxvk2-ComponentWrapper {
@@ -168,8 +175,9 @@ nav div3 div-3 img{
     overflow: hidden;
     margin: 0px;
     float: left;
+        min-width: -webkit-fill-available;
 }
-.css-lwgzx3-ImageContainer {
+/* .css-lwgzx3-ImageContainer {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -189,21 +197,30 @@ nav div3 div-3 img{
     -webkit-transition: all 0.1s ease;
     transition: all 0.1s ease;
     opacity: 50%;
-}
-.css-13t2zkl-ImageElement {
-    position: relative;
-    top: 0px;
-    left: 0px;
+} */
+.volumeToggleBtn {
+       /* position: relative; */
+    /* top: 0px; */
+    /* left: 0px; */
     width: 40px;
     height: 30px;
     background: transparent;
+    position: sticky;
+    float: right;
+    right: 7%;
+    /* bottom: -13%; */
+    margin-top: -7%;
 }
 
 
 /* 2nd: cult, 3rd: careFit, 4th: mindFit div styles */
 .middleDivs{
+<<<<<<< HEAD:home/style.css
     width: 80%;
     margin: auto;
+=======
+    /* width: 1277px; */
+>>>>>>> c7fa9cc8ad3770404a7ec124ffffe61266501597:style.css
     padding-top: 20px;
     padding-bottom: 40px;
     font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
@@ -225,7 +242,11 @@ nav div3 div-3 img{
 }
 .nestedSubHeading{
     clear: both;
+<<<<<<< HEAD:home/style.css
     /* margin-left: 10%;  */
+=======
+    /* margin-left: 5%;  */
+>>>>>>> c7fa9cc8ad3770404a7ec124ffffe61266501597:style.css
     font-size:small; 
     color: gray;
 }
@@ -236,10 +257,14 @@ nav div3 div-3 img{
     transform: rotate(180deg);
 }
  .d {
-    width: 96%;
+    /* width: 96%; */
     height: 470px;
     
     margin-top: 45px;
+<<<<<<< HEAD:home/style.css
+=======
+    /* margin-left: 62px; */
+>>>>>>> c7fa9cc8ad3770404a7ec124ffffe61266501597:style.css
     display: flex;
     border-radius: 10px;
     /* border: 1px solid black; */
@@ -250,11 +275,13 @@ nav div3 div-3 img{
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     background-size: 750px;
+    background: round;
 }
 .divMid {
     width: 20%;
     height: 100%;            
     background-size: 750px;
+    background: round;
 }
 .divRHS {
     width: 20%;
@@ -262,6 +289,7 @@ nav div3 div-3 img{
     background-size: 750px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    background: round;
 }
 .innerDivContainer{
     margin-left: 5%;
@@ -313,6 +341,10 @@ nav div3 div-3 img{
     box-shadow: 0 14px 40px 0 rgb(0 0 0 / 10%);
     transition: transform 0.3s ease;
     transform: translateY(-3px);
+}
+
+.midDivs{
+    padding: 4% 5% 0 5%;
 }
 
 
