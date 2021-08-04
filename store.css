@@ -37,7 +37,7 @@
     }
 
     #cultsport {
-        margin-left: 600px;
+        margin-left: 38%;
         margin-top: 10px;
         justify-content: center;
         align-self: center;
@@ -48,7 +48,7 @@
 
     #navitems {
         display: flex;
-        margin-left: 480px;
+        margin-left: 35%;
         justify-content: space-around;
         justify-content: center;
         align-content: center;
@@ -85,10 +85,11 @@
         cursor: pointer;
     }
     .posterDiv{
-        margin: auto;
+        /* margin: auto; */
+        width: 100%;
     }
     #posture {
-        height: 300px;
+        /* height: 300px; */
         width: 100%;  
     }
     #posture:hover{
@@ -112,19 +113,23 @@
     #itemTypes {
         display: flex;
         justify-content: space-between;
+        gap: 2%;
         width: 77%;
         margin: auto;
         
-        height: 187px;
+        /* height: 187px;
         margin-top: 13px;
-        margin-bottom: 15px;
+        margin-bottom: 15px; */
+    }
+    #itemTypes>div{
+        width: 32%;
     }
 
     #men,
     #equipment,
     #women {
-        width: 380px;
-        height: 187px;
+        width: 100%;
+        /* height: 187px; */
         border-radius: 20px;
     }
     #men:hover,#equipment:hover,#women:hover{
@@ -178,7 +183,7 @@
     margin-bottom: 0%;
 }
 .text > h2{
-    margin-left: 220px;
+    margin-left: 15%;
     margin-top: 0%;
     font-size: 25px;
     color: rgb(178,178,178);
@@ -190,11 +195,11 @@
     background-color: rgb(242,244,248);
 }
 .bottom >h1{
-    margin-left: 140px;
+    margin-left: 10%;
     padding-top: 30px;
 }
 .bottom >h4{
-    margin-left: 140px;
+    margin-left: 10%;
 }
 .bottom >div{
     width: 80%;
@@ -204,11 +209,11 @@
 .bottom>div li{
     padding: 20px;
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 1%;
     color: rgb(106,106,106);
 }
 .bottom>div >ul{
-    margin-left: 10px;
+    margin-left: 1%;
 }
 .bottom div ul >hr{
     width: 90%;
@@ -292,7 +297,7 @@
 }
 #contact{
     display: flex;
-    margin-right: 200px;
+    margin-right: 15%;
 }
 #contact>div{
     padding: 15px;
@@ -307,7 +312,7 @@
 #icon{
     display: flex;
     text-align: right;
-    margin-left: 270px;
+    margin-left: 18%;
 }
 #icon>div{
     padding: 15px;
