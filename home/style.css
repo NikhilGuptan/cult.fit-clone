@@ -168,6 +168,10 @@ nav div3 div-3 img{
     /* height: 500px; */
     position: relative;
 }
+.cult{
+    position: relative; 
+    width: 90px;
+}
 .css-izxvk2-ComponentWrapper {
     min-height: 350px;
     background-color: #A1B0C5;
