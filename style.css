@@ -117,8 +117,6 @@ nav div3 div-3 img{
   /* 1st div : for the fun of fit */
 #fit{
     z-index: 3;
-    /* margin: 75px 73px 0px 73px;
-    padding: 0; */
     display: grid;
     grid-template-columns: 33.5% 66.5%;
 }
@@ -165,7 +163,6 @@ nav div3 div-3 img{
     line-height: 40px;
 }
 #video{
-    /* height: 500px; */
     position: relative;
 }
 .css-izxvk2-ComponentWrapper {
@@ -177,45 +174,19 @@ nav div3 div-3 img{
     float: left;
         min-width: -webkit-fill-available;
 }
-/* .css-lwgzx3-ImageContainer {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    min-height: -webkit-fit-content;
-    min-height: -moz-fit-content;
-    min-height: fit-content;
-    overflow: hidden;
-    position: absolute;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    right: 2px;
-    border-radius: 50%;
-    padding: 10px 5px 10px;
-    bottom: 50px;
-    cursor: pointer;
-    -webkit-transition: all 0.1s ease;
-    transition: all 0.1s ease;
-    opacity: 50%;
-} */
 .volumeToggleBtn {
-       /* position: relative; */
-    /* top: 0px; */
-    /* left: 0px; */
     width: 40px;
     height: 30px;
     background: transparent;
     position: sticky;
     float: right;
     right: 7%;
-    /* bottom: -13%; */
     margin-top: -7%;
 }
 
 
 /* 2nd: cult, 3rd: careFit, 4th: mindFit div styles */
 .middleDivs{
-    /* width: 1277px; */
     padding-top: 20px;
     padding-bottom: 40px;
     font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
@@ -234,7 +205,6 @@ nav div3 div-3 img{
 }
 .nestedSubHeading{
     clear: both;
-    /* margin-left: 5%;  */
     font-size:small; 
     color: gray;
 }
@@ -245,10 +215,8 @@ nav div3 div-3 img{
     transform: rotate(180deg);
 }
  .d {
-    /* width: 96%; */
     height: 470px;
     margin-top: 45px;
-    /* margin-left: 62px; */
     display: flex;
     border-radius: 10px;
 }
@@ -554,8 +522,6 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
     display: none;
 }
 .css-6c1lfh-TransitionComponent {
-    /* animation: 0.5s ease-out 0s 1 normal none running animation-jvw5ve; */
-    /* z-index: 5; */
     max-height: calc(100% - 64px);
     height: auto;
     width: 70%;
