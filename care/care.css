@@ -37,7 +37,7 @@
     }
 
     #cultsport {
-        margin-left: 600px;
+        margin-left: 36%;
         margin-top: 10px;
         justify-content: center;
         align-self: center;
@@ -48,7 +48,7 @@
 
     #navitems {
         display: flex;
-        margin-left: 480px;
+        margin-left: 33%;
         justify-content: space-around;
         justify-content: center;
         align-content: center;

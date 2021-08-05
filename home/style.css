@@ -215,18 +215,25 @@ nav div3 div-3 img{
 
 /* 2nd: cult, 3rd: careFit, 4th: mindFit div styles */
 .middleDivs{
-<<<<<<< HEAD:home/style.css
-    width: 80%;
-    margin: auto;
-=======
     /* width: 1277px; */
->>>>>>> c7fa9cc8ad3770404a7ec124ffffe61266501597:style.css
     padding-top: 20px;
     padding-bottom: 40px;
     font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 .introDiv{
    /* margin-left: 10%;  */
+}
+.bagroundImageContent1{
+    font-size: 14px;
+    color: white; 
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; 
+    line-height: 1.8;
+}
+.bagroundImageContent2{
+    font-size: 14px;
+    color: black; 
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; 
+    line-height: 1.8;
 }
 .divSubHeadingLeft{
    font-size: 17px;
@@ -242,11 +249,7 @@ nav div3 div-3 img{
 }
 .nestedSubHeading{
     clear: both;
-<<<<<<< HEAD:home/style.css
-    /* margin-left: 10%;  */
-=======
     /* margin-left: 5%;  */
->>>>>>> c7fa9cc8ad3770404a7ec124ffffe61266501597:style.css
     font-size:small; 
     color: gray;
 }
@@ -261,10 +264,7 @@ nav div3 div-3 img{
     height: 470px;
     
     margin-top: 45px;
-<<<<<<< HEAD:home/style.css
-=======
     /* margin-left: 62px; */
->>>>>>> c7fa9cc8ad3770404a7ec124ffffe61266501597:style.css
     display: flex;
     border-radius: 10px;
     /* border: 1px solid black; */
