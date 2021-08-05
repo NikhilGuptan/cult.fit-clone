@@ -75,7 +75,7 @@ function showStore(d){
                     localStorage.removeItem("selectedItem");
                     localStorage.setItem("selectedItem",JSON.stringify(el))
                 }
-                window.location.href = "selectedItem.html";
+                window.location.href = "../selectedItem/selectedItem.html";
 
             });
             
@@ -167,11 +167,11 @@ var navbar = document.getElementById("navBlock");
 var sticky = navbar.offsetTop;
 
 function goToHome() {
-        window.location.href = "home.html"
+        window.location.href = "../home/home.html"
 }
     
 function card() {
 
-    window.location.href = "card.html";
+    window.location.href = "../card/card.html";
 
 }

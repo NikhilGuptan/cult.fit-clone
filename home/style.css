@@ -28,8 +28,8 @@ nav{
     margin-top: 11px;
 }
 nav img{
-    width: 38px;
-    height:42.22222222222222px;
+    width: 100%;
+    height:42px;
 }
 div2{
     align-items: center;
@@ -165,6 +165,10 @@ nav div3 div-3 img{
 #video{
     position: relative;
 }
+.cult{
+    position: relative; 
+    width: 90px;
+}
 .css-izxvk2-ComponentWrapper {
     min-height: 350px;
     background-color: #A1B0C5;
@@ -191,6 +195,21 @@ nav div3 div-3 img{
     padding-bottom: 40px;
     font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
+.introDiv{
+   /* margin-left: 10%;  */
+}
+.bagroundImageContent1{
+    font-size: 14px;
+    color: white; 
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; 
+    line-height: 1.8;
+}
+.bagroundImageContent2{
+    font-size: 14px;
+    color: black; 
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; 
+    line-height: 1.8;
+}
 .divSubHeadingLeft{
    font-size: 17px;
     font-weight: 600;
@@ -216,9 +235,11 @@ nav div3 div-3 img{
 }
  .d {
     height: 470px;
+    
     margin-top: 45px;
     display: flex;
     border-radius: 10px;
+    /* border: 1px solid black; */
 }
 .divLHS {
     width: 60%;
@@ -250,6 +271,18 @@ nav div3 div-3 img{
     color: white; 
     font-size: 18px;
     font-weight: 600;
+}
+.bagroundImageDivInerContent1{
+    font-size: 14px;
+    color: white; 
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
+}
+.bagroundImageDivInerContent2{
+    font-size: 14px;
+    color: black; 
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
 }
 .innerMidleDivHeader{
     color: black; 

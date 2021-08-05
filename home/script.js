@@ -300,19 +300,19 @@ function increaseC3 ()
 function goToCult ()
 {
 
-    window.location.href = "care.html";
+    window.location.href = "../care/care.html";
 
 }
 
 function goingToStorePage ()
 {
-    window.location.href = "store.html";
+    window.location.href = "../store/store.html";
 }
 
 function cart ()
 {
 
-    window.location.href = "card.html";
+    window.location.href = "../card/card.html";
 
 }
 
@@ -324,7 +324,7 @@ function goToProfile ()
 
     if ( number.length == 10 )
     {
-        window.location.href = "profile.html";
+        window.location.href = "../profile/profile.html";
     } else
     {
         alert( "enter valid Number" );
@@ -332,11 +332,7 @@ function goToProfile ()
 
 }
 
-function setLocation() {
-    
-    document.getElementById("showSelectedLocationName").innerHTML = document.getElementById("bangalore").innerHTML;
 
-}
 
 
 

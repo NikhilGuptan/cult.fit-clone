@@ -172,7 +172,7 @@ function goToPayMoney(){
     if (data == "") {
         alert("Nothing Select for purchase..")
     } else {
-        window.location.href = "payment.html";    
+        window.location.href = "../payment/payment.html";    
     }
 
 
