@@ -1,111 +1,5 @@
 var body = document.getElementById( "body" )
 
-// location popup
-var count = 0;
-function showLocation ()
-{
-    count++;
-    if ( count % 2 != 0 )
-    {
-        document.getElementById( "location" ).style.display = "block";
-        document.getElementById( "main" ).style.position = "fixed";
-        document.getElementById( "main" ).style.filter = "blur";
-        // document.getElementById( "main" ).style.zIndex = "1000";
-    } else
-    {
-        document.getElementById( "location" ).style.display = "none";
-        // window.location.reload()
-    }
-}
-
-// set location name in navbar
-function setLocationNameBangalore ()
-{
-    let locationName = document.getElementById( "BangaloreTxt" ).innerHTML;
-    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 255, 50, 50 )";
-    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(0%)";
-    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
-    document.getElementById( "DelhiTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "DelhiImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "KolkataTxt" ).style.color = "rgb( 22, 22, 22)";
-    console.log( locationName );
-    document.getElementById( "location" ).style.display = "none";
-}
-function setLocationNameDelhi ()
-{
-    let locationName = document.getElementById( "DelhiTxt" ).innerHTML;
-    document.getElementById( "DelhiTxt" ).style.color = "rgb( 255, 50, 50 )";
-    document.getElementById( "DelhiImg" ).style.filter = "grayscale(0%)";
-    // let locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
-    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
-    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "KolkataTxt" ).style.color = "rgb( 22, 22, 22)";
-    console.log( locationName );
-    document.getElementById( "location" ).style.display = "none";
-}
-function setLocationNameHyderabad ()
-{
-    let locationName = document.getElementById( "HyderabadTxt" ).innerHTML;
-    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 255, 50, 50 )";
-    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(0%)";
-    // let locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
-    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
-    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "DelhiTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "DelhiImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "KolkataTxt" ).style.color = "rgb( 22, 22, 22)";
-    console.log( locationName );
-    document.getElementById( "location" ).style.display = "none";
-}
-function setLocationNameMumbai ()
-{
-    let locationName = document.getElementById( "MumbaiTxt" ).innerHTML;
-    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 255, 50, 50 )";
-    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(0%)";
-    // let locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
-    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
-    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "DelhiTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "DelhiImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "KolkataTxt" ).style.color = "rgb( 22, 22, 22)";
-    console.log( locationName );
-    document.getElementById( "location" ).style.display = "none";
-    window.location.reload()
-}
-function setLocationNameKolkata ()
-{
-    let locationName = document.getElementById( "KolkataTxt" ).innerHTML;
-    document.getElementById( "KolkataTxt" ).style.color = "rgb( 255, 50, 50 )";
-    // let locationName = document.getElementByClassName( 'city-card' ).getAttribute( 'value' );
-    document.getElementById( "showSelectedLocationName" ).textContent = locationName;
-    document.getElementById( "BangaloreTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "BangaloreImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "DelhiTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "DelhiImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "HyderabadTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "HyderabadImg" ).style.filter = "grayscale(100%)";
-    document.getElementById( "MumbaiTxt" ).style.color = "rgb( 22, 22, 22 )";
-    document.getElementById( "MumbaiImg" ).style.filter = "grayscale(100%)";
-    console.log( locationName );
-    document.getElementById( "location" ).style.display = "none";
-}
-
-
 // Mute/Unmute Button functions
 var mute = 0;
 function muteUnmute ()
@@ -333,6 +227,138 @@ function goToProfile ()
 }
 
 
+function myFunction ( x )
+{
+    if ( x.matches )
+    {
+        // div: Cult animations
+        function increaseA1 ()
+        {
+            setTimeout( function ()
+            {
+                document.getElementById( "a1" ).style.height = "100%";
+                document.getElementById( "a1" ).style.cursor = "pointer";
+                document.getElementById( "b1" ).style.height = "50%";
+                document.getElementById( "c1" ).style.height = "50%";
+                document.getElementById( "textContent1" ).style.display = "block";
+                document.getElementById( "textContent2" ).style.display = "none";
+                document.getElementById( "textContent3" ).style.display = "none";
+            }, 300 );
+        }
+        function increaseB1 ()
+        {
+            setTimeout( function ()
+            {
+                document.getElementById( "a1" ).style.height = "50%";
+                document.getElementById( "b1" ).style.height = "100%";
+                document.getElementById( "b1" ).style.cursor = "pointer";
+                document.getElementById( "c1" ).style.height = "50%";
+                document.getElementById( "textContent1" ).style.display = "none";
+                document.getElementById( "textContent2" ).style.display = "block";
+                document.getElementById( "textContent3" ).style.display = "none";
+            }, 300 );
+        }
+        function increaseC1 ()
+        {
+            setTimeout( function ()
+            {
+                document.getElementById( "a1" ).style.height = "50%";
+                document.getElementById( "b1" ).style.height = "50%";
+                document.getElementById( "c1" ).style.height = "100%";
+                document.getElementById( "c1" ).style.cursor = "pointer";
+                document.getElementById( "textContent1" ).style.display = "none";
+                document.getElementById( "textContent2" ).style.display = "none";
+                document.getElementById( "textContent3" ).style.display = "block";
+            }, 300 )
+        }
+
+        // div: Care animations
+        function increaseA2 ()
+        {
+            setTimeout( function ()
+            {
+                document.getElementById( "a2" ).style.height = "100%";
+                document.getElementById( "a2" ).style.cursor = "pointer";
+                document.getElementById( "b2" ).style.height = "50%";
+                document.getElementById( "c2" ).style.height = "50%";
+                document.getElementById( "textContent4" ).style.display = "block";
+                document.getElementById( "textContent5" ).style.display = "none";
+                document.getElementById( "textContent6" ).style.display = "none";
+            }, 300 );
+        }
+        function increaseB2 ()
+        {
+            setTimeout( function ()
+            {
+                document.getElementById( "a2" ).style.height = "50%";
+                document.getElementById( "b2" ).style.height = "100%";
+                document.getElementById( "b2" ).style.cursor = "pointer";
+                document.getElementById( "c2" ).style.height = "50%";
+                document.getElementById( "textContent4" ).style.display = "none";
+                document.getElementById( "textContent5" ).style.display = "block";
+                document.getElementById( "textContent6" ).style.display = "none";
+            }, 300 );
+        }
+        function increaseC2 ()
+        {
+            setTimeout( function ()
+            {
+                document.getElementById( "a2" ).style.height = "50%";
+                document.getElementById( "b2" ).style.height = "50%";
+                document.getElementById( "c2" ).style.height = "100%";
+                document.getElementById( "c2" ).style.cursor = "pointer";
+                document.getElementById( "textContent4" ).style.display = "none";
+                document.getElementById( "textContent5" ).style.display = "none";
+                document.getElementById( "textContent6" ).style.display = "block";
+            }, 300 )
+        }
+
+        // div: Mind animations
+        function increaseA3 ()
+        {
+            setTimeout( function ()
+            {
+                document.getElementById( "a3" ).style.height = "100%";
+                document.getElementById( "a3" ).style.cursor = "pointer";
+                document.getElementById( "b3" ).style.height = "50%";
+                document.getElementById( "c3" ).style.height = "50%";
+                document.getElementById( "textContent7" ).style.display = "block";
+                document.getElementById( "textContent8" ).style.display = "none";
+                document.getElementById( "textContent9" ).style.display = "none";
+            }, 300 );
+        }
+        function increaseB3 ()
+        {
+            setTimeout( function ()
+            {
+                document.getElementById( "a3" ).style.height = "50%";
+                document.getElementById( "b3" ).style.height = "100%";
+                document.getElementById( "b3" ).style.cursor = "pointer";
+                document.getElementById( "c3" ).style.height = "50%";
+                document.getElementById( "textContent7" ).style.display = "none";
+                document.getElementById( "textContent8" ).style.display = "block";
+                document.getElementById( "textContent9" ).style.display = "none";
+            }, 300 );
+        }
+        function increaseC3 ()
+        {
+            setTimeout( function ()
+            {
+                document.getElementById( "a3" ).style.height = "50%";
+                document.getElementById( "b3" ).style.height = "50%";
+                document.getElementById( "c3" ).style.height = "100%";
+                document.getElementById( "c3" ).style.cursor = "pointer";
+                document.getElementById( "textContent7" ).style.display = "none";
+                document.getElementById( "textContent8" ).style.display = "none";
+                document.getElementById( "textContent9" ).style.display = "block";
+            }, 300 )
+        }
+    }
+}
+
+var x = window.matchMedia( "(max-width: 767px)" )
+myFunction( x )
+x.addListener( myFunction )
 
 
 
