@@ -36,7 +36,7 @@ function slidShow(){
     slidShow();
 
 function goToHome() {
-        window.location.href = "../home/home.html"
+        window.location.href = "../home.html"
 }
     
 function card() {
