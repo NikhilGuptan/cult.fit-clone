@@ -2,13 +2,6 @@ body{
     margin: 0;
         width: fit-content;
 }
-@media only screen and (min-width: 2945px) {
-  body {
-    margin: 0;
-     width: auto;
-  }
-}
-
 
  /* navbar */
 nav{
@@ -102,6 +95,9 @@ div3{
      font-family: 'Roboto', sans-serif;
      font-size: small;
 }
+.login-text{
+    margin-top: 4px;
+}
 nav div3 div-2 img{
     width: 16px;
     height: 16px;
@@ -117,8 +113,6 @@ nav div3 div-3 img{
   /* 1st div : for the fun of fit */
 #fit{
     z-index: 3;
-    /* margin: 75px 73px 0px 73px;
-    padding: 0; */
     display: grid;
     grid-template-columns: 33.5% 66.5%;
 }
@@ -165,7 +159,6 @@ nav div3 div-3 img{
     line-height: 40px;
 }
 #video{
-    /* height: 500px; */
     position: relative;
 }
 .cult{
@@ -181,52 +174,26 @@ nav div3 div-3 img{
     float: left;
         min-width: -webkit-fill-available;
 }
-/* .css-lwgzx3-ImageContainer {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    min-height: -webkit-fit-content;
-    min-height: -moz-fit-content;
-    min-height: fit-content;
-    overflow: hidden;
-    position: absolute;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    right: 2px;
-    border-radius: 50%;
-    padding: 10px 5px 10px;
-    bottom: 50px;
-    cursor: pointer;
-    -webkit-transition: all 0.1s ease;
-    transition: all 0.1s ease;
-    opacity: 50%;
-} */
 .volumeToggleBtn {
-       /* position: relative; */
-    /* top: 0px; */
-    /* left: 0px; */
     width: 40px;
     height: 30px;
     background: transparent;
     position: sticky;
     float: right;
     right: 7%;
-    /* bottom: -13%; */
     margin-top: -7%;
 }
 
 
 /* 2nd: cult, 3rd: careFit, 4th: mindFit div styles */
 .middleDivs{
-    /* width: 1277px; */
     padding-top: 20px;
     padding-bottom: 40px;
     font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
-.introDiv{
-   /* margin-left: 10%;  */
-}
+/* .introDiv{
+   /* margin-left: 10%;  * /
+} */
 .bagroundImageContent1{
     font-size: 14px;
     color: white; 
@@ -253,7 +220,6 @@ nav div3 div-3 img{
 }
 .nestedSubHeading{
     clear: both;
-    /* margin-left: 5%;  */
     font-size:small; 
     color: gray;
 }
@@ -264,11 +230,9 @@ nav div3 div-3 img{
     transform: rotate(180deg);
 }
  .d {
-    /* width: 96%; */
     height: 470px;
     
     margin-top: 45px;
-    /* margin-left: 62px; */
     display: flex;
     border-radius: 10px;
     /* border: 1px solid black; */
@@ -507,6 +471,7 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
 #footer4{
  width: 25%;
  height: 220px;
+ text-align: right;
 }
 #footer1>img{
     width: 35%;
@@ -536,9 +501,6 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
 #footer3 ul>li{
     margin-top: 15px;
     margin-bottom: 15px;
-}
-#footer4{
-    text-align: right;
 }
 #footer4>img{    
     height: 49px;
@@ -572,152 +534,6 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
 #icon>div{
     padding: 15px;
 }
-
-
-/* location div */
-.css-zyzl36-DialogContainer {
-    height: 100%;
-    outline: 0px;
-    display: flex;
-    align-items: flex-start;
-    -webkit-box-pack: center;
-    justify-content: center;
-}
-.egcmzpn0{
-    display: none;
-}
-.css-6c1lfh-TransitionComponent {
-    /* animation: 0.5s ease-out 0s 1 normal none running animation-jvw5ve; */
-    /* z-index: 5; */
-    max-height: calc(100% - 64px);
-    height: auto;
-    width: 70%;
-    margin: 57px auto 0px;
-}
-.css-1qvrogn-DialogBox {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    border-radius: 11px;
-    z-index: 5;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgb(0 0 0 / 22%) 0px 13px 24px 0px;
-    opacity: 1;
-    overflow: hidden;
-}
-.css-1bffdxu-DialogBody {
-    position: relative;
-    padding: 20px;
-    margin-bottom: 30px;
-    animation: 0.3s ease 0s 1 normal none running animation-ngigez;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .city-chooser {
-    width: 100%;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    justify-content: left;
-    padding-left: 5px;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .country-wrapper {
-    padding: 0px;
-    width: 100%;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .city-chooser .select-text {
-    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-}
-.css-crhaw1-CitySelectionEmotionWrapper .city-chooser {
-    width: 100%;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    justify-content: left;
-    padding-left: 5px;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .block-padding {
-    padding-top: 33px;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .country-wrapper {
-    padding: 0px;
-    width: 100%;
-}
-.css-yegumc-TabContent {
-    padding-top: 13px;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .city-header {
-    color: rgb(163, 163, 163);
-    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-size: 15px;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .city-card-container {
-    display: flex;
-    -webkit-box-pack: start;
-    justify-content: flex-start;
-    flex-flow: row wrap;
-    padding: 13px 13px 13px 0px;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .city-card-container .city-card {
-    width: 70px;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    border-radius: 1px;
-    background-color: rgb(255, 255, 255);
-    margin: 0px 0.9rem 10px;
-    position: relative;
-    opacity: 0.6;
-    cursor: pointer;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .city-card-container .city-card .city-image-card-container {
-    width: 60px;
-}
-.city-title{
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    line-height: 1.42857143;
-    color: rgb(22, 22, 22);
-    background-color: #fff;
-}
-.cityImg{
-    filter: grayscale(100%);
-    vertical-align: middle;
-    border: 0;
-    max-width: 100%;
-    height: auto;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .other-city-header {
-    color: rgb(163, 163, 163);
-    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-size: 15px;
-    padding-top: 15px;
-    border-bottom: 1px solid whitesmoke;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .cities-wrapper {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    row-gap: 14px;
-    padding: 12px;
-    cursor: pointer;
-
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .city-title {
-    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-}
-.css-crhaw1-CitySelectionEmotionWrapper .cities-wrapper .card-selected {
-    opacity: 1;
-    color: rgb(255, 50, 120);
-}
-
 
 /* loginPopUpDiv */
 .loginHead{
@@ -886,4 +702,168 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 2945px) {
+  body {
+    margin: 0;
+     width: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+    nav{
+        display: none;
+    }
+
+    #fit {
+        display: flex;
+        flex-direction: column;
+    } 
+    #forTheFit {
+        height: 205vh;
+        margin: 0 23px 0 23px;
+    }
+    .content{
+        font-size: 8rem;
+    }
+    .fitPara {
+        font-size: 5rem;
+        margin-bottom: 5%;
+        line-height: 80px;
+        font-weight: 600;
+    }
+    .slider {
+        height: 18vh;
+        overflow: hidden;
+    }
+    .midDivs {
+        padding: 4% 6% 0 5%;
+    }
+    .divSubHeadingLeft {
+        font-size: 70px;
+    }
+    .divSubHeadingRight {
+        font-size: 0;
+    }
+    .arrowImg {
+        height: 75px;
+        width: 48px;
+    }
+    .nestedSubHeading {
+        font-size: 60px;
+    }
+    .d {
+        height: 234vh;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+    .divLHS {
+        width: 100%;
+        height: 100%;
+    }
+    .divMid {
+        width: 100%;
+        height: 50%;
+    }
+    .divRHS {
+        width: 100%;
+        height: 50%;
+    }
+    .innerDivHeader, .innerMidleDivHeader  {
+        font-size: 70px;
+    }
+    .bagroundImageContent1, .bagroundImageContent2  {
+    font-size: 40px;
+    }
+    .divBtn, .divBtnMidle {
+        font-size: 45px;
+    }
+    
+
+    .css-izxvk2-ComponentWrapper{
+            border-radius: 5%;
+    }
+
+    .cult{
+        width: 100%;
+    }
+    .middleDivs>div:nth-child(1){
+        width: 30%;
+    }
+
+    #footer {
+        height: 225vh;
+    }
+    #footer>div {
+        flex-direction: column;
+    }
+    #footer1 {
+        width: auto;
+    }
+    #footer1>p {
+        font-size: 3rem;
+    }
+
+    #footer2>ul {
+        margin-top: 162%;
+        text-align: left;
+        padding: 0;
+        font-size: 3rem;
+        display: flex;
+    }
+    #footer2 ul>li {
+        margin: 15px;
+    }
+
+    #footer3 {
+        height: 190px;
+        margin-top: 210px;
+    }
+    #footer3>ul {
+        text-align: left;
+        font-size: 3rem;
+        padding: 0;
+        display: flex;
+    }
+    #footer3 ul>li {
+        margin-right: 15px;
+    }
+    
+    #footer4 {
+        width: auto;
+        height: auto;
+        margin-top: 80px;
+        display: flex;
+        text-align: left;
+    }
+    #footer4>img {
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+
+    #footerEnd {
+        padding-top: 0;
+        margin-top: 30px;
+    }
+    #contact {
+        margin-right: 0;
+    }
+    #contact>div {
+        font-size: 3rem;
+    }
+    #icon {
+        margin-left: 0;
+        justify-content: space-between;
+    }
+    #icon>div {
+        width: 80px;
+        height: 80px;
+    }
+    #icon>div>img {
+        width: 80px;
+        height: 80px;
+    }
 }
