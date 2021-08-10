@@ -711,9 +711,9 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
   }
 }
 @media only screen and (max-width: 767px) {
-    nav{
+    /* nav{
         display: none;
-    }
+    } */
 
     #fit {
         display: flex;
