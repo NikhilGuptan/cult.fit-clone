@@ -720,7 +720,7 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
         flex-direction: column;
     } 
     #forTheFit {
-        height: 205vh;
+        height: 180vh;
         margin: 0 23px 0 23px;
     }
     .content{
