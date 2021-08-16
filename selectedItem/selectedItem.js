@@ -60,7 +60,7 @@ function itemAddedToCard(){
 buyNow();
     
   } else {
-    alert("Item aleardy added");
+    alert("Item already added");
     }
 
     
