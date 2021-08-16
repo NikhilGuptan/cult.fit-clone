@@ -41,13 +41,29 @@ function itemAddedToCard(){
         arr=JSON.parse(localStorage.getItem('itemAddedToCard'))
     }
 
-    arr.push(selected)
+  var flag = true;
+  
+  arr.forEach(function(el){
+    if (el.price == selected.price) {
+      flag = false;
+      }
+  })
+
+  if (flag) {
+      
+      arr.push(selected)
 
   localStorage.setItem('itemAddedToCard', JSON.stringify(arr))
 
   alert("item Added To Cart")
   
 buyNow();
+    
+  } else {
+    alert("Item aleardy added");
+    }
+
+    
   
 
 }
