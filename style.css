@@ -703,14 +703,14 @@ background-image: linear-gradient(to right,#6f69aa,#378ac5);
   text-decoration: none;
   cursor: pointer;
 }
-/* 
+
 @media only screen and (min-width: 2945px) {
   body {
     margin: 0;
      width: auto;
   }
-} */
-@media (min-width:350px) and (max-width: 767px) {
+}
+@media (max-width: 767px) {
     /* nav{
         display: none;
     } */
