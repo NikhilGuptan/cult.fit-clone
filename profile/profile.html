@@ -1,16 +1,17 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Fitness Workouts, Gyms, Health Care, &amp; Healthy Food in India by Cult.fit</title>
-    <link rel="stylesheet" href="profile.css">
-</head>
-<body>
-    
-    <!-- navbar of store page -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Get Fitness Workouts, Gyms, Health Care, &amp; Healthy Food in India by Cult.fit</title>
+        <link rel="stylesheet" href="profile.css">
+    </head>
+
+    <body>
+
+        <!-- navbar of store page -->
         <div id="navBlock">
             <div id="logo">
                 <image onclick="goToHome()" src="https://static.cure.fit/assets/images/curefit-v-man.svg"></image>
@@ -48,11 +49,13 @@
                     </div>
                     <div id="item1">
                         <span>Medical Records</span>
-                        <image id="cartimg" src="https://static.cure.fit/assets/images/health-profile-black.svg"></image>
+                        <image id="cartimg" src="https://static.cure.fit/assets/images/health-profile-black.svg">
+                        </image>
                     </div>
                     <div id="item1">
                         <span>Active Packs and Subscription</span>
-                        <image id="cartimg" src="https://static.cure.fit/assets/images/combined-shape-black.svg"></image>
+                        <image id="cartimg" src="https://static.cure.fit/assets/images/combined-shape-black.svg">
+                        </image>
                     </div>
                     <div id="item1">
                         <span>Redeem Voucher</span>
@@ -82,10 +85,11 @@
                         <hr>
                         <span>GENDER</span>
                         <div id="malefema">
-                            <image class="gender male" src="https://static.cure.fit/assets/images/male-inactive.svg">
+                            <image class="gender male" src="https://static.cure.fit/assets/images/male-active.svg">
                             </image>
                             <div id="vertline"></div>
-                            <image class="gender" src="https://static.cure.fit/assets/images/female-active.svg"></image>
+                            <image class="gender" src="https://static.cure.fit/assets/images/female-inactive.svg">
+                            </image>
                         </div>
                         <p>Male</p>
                         <hr id="hr2">
@@ -119,24 +123,28 @@
 
 
 
-</body>
+    </body>
 
-<script>
+    <script>
 
-    window.onscroll = function () {
+        window.onscroll = function ()
+        {
 
-            if (window.pageYOffset >= sticky) {
-                navbar.setAttribute("class", "sticky")
+            if ( window.pageYOffset >= sticky )
+            {
+                navbar.setAttribute( "class", "sticky" )
             }
 
         };
-        var navbar = document.getElementById("navBlock");
+        var navbar = document.getElementById( "navBlock" );
         var sticky = navbar.offsetTop;
 
-        function goToHome(){
+        function goToHome()
+        {
 
             window.location.href = "../home.html"
 
-        }   
-</script>
+        }
+    </script>
+
 </html>
